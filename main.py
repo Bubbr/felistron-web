@@ -1,5 +1,7 @@
 from flask import Flask
 
+print("Aplicacion iniciada")
+
 app = Flask(__name__)
 
 @app.route("/")
